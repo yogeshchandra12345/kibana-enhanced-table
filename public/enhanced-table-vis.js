@@ -66,6 +66,7 @@ function EnhancedTableVisProvider(Private) {
         filterCaseSensitive: false,
         filterBarHideable: false,
         filterAsYouType: false,
+        filterTermsSeparately: false,
         filterBarWidth: '25%'
       },
       template: tableVisTemplate
