@@ -76,7 +76,9 @@ git reset --hard vX.Y.Z # replace 'X.Y.Z' by desired Kibana version
 - install the latest version of [yarn](https://yarnpkg.com)
 - execute these commands :
 ``` bash
+yarn
 cd ../kibana-enhanced-table
+yarn install
 yarn start
 ```
 - in your browser, call `https://localhost:5601` and enjoy!
@@ -84,5 +86,5 @@ yarn start
 
 To build a distributable archive, execute this command :
 ``` bash
-yarn run build --kibana-version X.Y.Z # replace 'X.Y.Z' by desired Kibana version
+yarn build --kibana-version X.Y.Z # replace 'X.Y.Z' by desired Kibana version
 ```
